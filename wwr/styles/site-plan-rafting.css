@@ -7,16 +7,16 @@ body {
 }
 
 :root {
-   --primary-color: #F5F5F5;
-   --secondary-color: #FFDD33;
-   --accent-color: #1DC6ED;
+   --primary-color: #C2C2C2;
+   --secondary-color: #FFD60A;
+   --accent-color: #041D25;
    --additional-accent-color: #141C7A;
    --heading-font:"DM Serif Display", serif;
-   --paragraph-font: sedan, serif ;
-   --navigation-background-color: #F5F5F5;
-   --navigation-link-color: #1DC6ED;
-   --navigation-hover-link-color: #1DC6ED;
-   --navigation-hover-background-color: #F5F5F5;
+   --paragraph-font: sedan, serif;
+   --navigation-background-color: #C2C2C2;
+   --navigation-link-color: #041D25;
+   --navigation-hover-link-color: #041D25;
+   --navigation-hover-background-color: #C2C2C2;
 }
 
        
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--additional-accent-color);
   }
 
   p {
