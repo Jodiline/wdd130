@@ -9,17 +9,17 @@ body {
 :root {
    --primary-color: #C2C2C2;
    --secondary-color: #FFD60A;
-   --accent-color: #041D25;
-   --additional-accent-color: #141C7A;
+   --accent1-color: #041D25;
+   --accent2-color: #141C7A;
    --heading-font:"DM Serif Display", serif;
    --paragraph-font: sedan, serif;
-   --navigation-background-color: #C2C2C2;
-   --navigation-link-color: #041D25;
-   --navigation-hover-link-color: #041D25;
-   --navigation-hover-background-color: #C2C2C2;
+   --nav-background-color: #C2C2C2;
+   --nav-link-color: #041D25;
+   --nav-hover-link-color: #C2C2C2;
+   --nav-hover-background-color: #041D25;
 }
 
-       
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--additional-accent-color);
+    background-color: var(--accent2-color);
   }
 
   p {
