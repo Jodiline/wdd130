@@ -30,10 +30,9 @@ body {
 }  
 
 nav a {
-    display:inline-block;
+    display: block;
     color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;   
+    text-decoration: none;  
 }
 
 .hero {
@@ -80,7 +79,7 @@ nav a {
 header {
 	margin: 1rem auto;
 	display: grid;
-	grid-template-columns: 120px 0fr ;
+	grid-template-columns: 1fr 1fr ;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
     align-items: center;
@@ -96,6 +95,7 @@ header {
 nav {
     font-size: 1.2rem;
     display: flex;
+    justify-content: space-between;
 }
 
 nav a:hover {
