@@ -189,6 +189,17 @@ h1 {
     line-height: 35px;
 }
 
+.contact a:link {
+    text-decoration: none;
+    color:#000
+}
+
+.contact a:hover {
+	color: var(--nav-hover-link-color);
+	font-weight: 800;
+	text-decoration: underline;
+}
+    
 .maps {
     grid-area: 4 / 1 / 7 / 3;
 }
@@ -213,6 +224,7 @@ input, textarea {
     font-size: 1rem;
     color: #000;
     width: 250px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 label {
@@ -327,8 +339,7 @@ iframe {
 .div-wrapper {
     display: flex;
     justify-content: space-around;
-    padding: 1rem;
-    margin: 2rem;
+    padding-top: 3rem;
 }
 
 .cols {
@@ -342,8 +353,9 @@ iframe {
 .index-form {
     grid-area: 2 / 1 / 5 / 3;
     background-color: var(--accent2-color);
-    width: 500px;
+    width: 600px;
     border-radius: 10px;
+    padding: 2.5rem;
 }
 
 .trips-view { 
@@ -352,7 +364,7 @@ iframe {
 
 .trips-view img {
     position: relative;
-    width: 1000px;
+    width: 1200px;
 }
 
 .trips-view p {
