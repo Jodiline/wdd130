@@ -200,13 +200,21 @@ input, textarea {
 }
 
 label {
-    text-align: left; 
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.message {
+    display: flex;
+    margin-left: 2px;
 }
 
 button {
     display: flex;
     align-items: center;
-    margin: 1rem;
+    margin-top: 2.5rem;
+    margin-left: 3.5rem;
+    margin-bottom: 2.5rem;
     background-color: var(--accent2-color);
     color: #fff;
     border: none;
@@ -219,8 +227,14 @@ button:hover {
     background-color: var(--accent1-color);
 }
 
-label {
-    padding: 1.5rem;
+.sub {
+    display: inline-block;
+    margin-left: 190px;
+    margin-bottom: 50px;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
 }
 
 .trips {
