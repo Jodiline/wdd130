@@ -7,7 +7,7 @@
 }
 
 body {
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 0.5rem;
 }
 
@@ -241,11 +241,68 @@ label {
 }
 
 .home-banner h2 {
+    color: #03045E;
+    padding: 30px;
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 130px;
+    background-color: rgba(245, 245, 252, 0.3); 
+}
+
+.home-banner p {
+    color: var(--primary-color);
     padding: 50px;
     width: 100%;
     text-align: center;
     position: absolute;
-    top: 19px;  
+    bottom: 0px;
+    font-size: 1.5rem;
 }
 
+.index-form input, textarea {
+    margin: 0.2rem;
+    font-size: 0.5rem;
+    color: #000;
+    width: 250px;
+}
 
+.index-form p {
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration:underline;
+}
+
+.div-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 300px;
+    grid-row-gap: 0px;
+}
+
+.index-form {
+    grid-area: 1 / 1 / 7 / 3; 
+}
+
+.trips-view { 
+    grid-area: 1 / 3 / 7 / 5; 
+}
+
+.trips-view img {
+    width: 300px;
+}
+
+.trips-view p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--accent2-color)
+}
