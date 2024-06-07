@@ -23,7 +23,7 @@
         <main>
           <h1>Contact Us</h1>
           <div class="middle">
-            <section class="happy">
+            <div class="happy">
               <figure>
                 <img src="images/happyemploye.webp" alt="Happy employe">
               </figure>
@@ -35,43 +35,44 @@
               <figure>
                 <img src="images/happyemploye2.webp" alt="Happy employe">
               </figure>
-            </section>
+            </div>
           <div class="section-wrapper">
             <div class="col">
-              <section class="contact">
+              <div class="contact">
                 <p>Phone Number: (720) 274-1000</p>
                 <p>
                   <a href="info@raftingsite.com"> Email: info@raftingsite.com</a>
                 </p>
-                <p>Address: 196302100950, Evergreen</br> CO 80439 United States</p>
-              </section>
-              <section class="maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12271.618208310918!2d-105.41890382643297!3d39.74179483713522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sClear%20Creek%20river!5e0!3m2!1sen!2spt!4v1717594987375!5m2!1sen!2spt" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </section>
+                <p>Address: 196302100950, Evergreen</p> 
+                <p>CO 80439 United States</p>
+              </div>
+              <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12271.618208310918!2d-105.41890382643297!3d39.74179483713522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sClear%20Creek%20river!5e0!3m2!1sen!2spt!4v1717594987375!5m2!1sen!2spt" ></iframe>
+              </div>
             </div>
-            <section class="form">
+            <div class="form">
               <form>
                 <div>
                     <label for="fullname">Name</label>
-                    <input type="fullname" id="fullname" name="fullname" placeholder="First and last name">
+                    <input type="text" id="fullname" name="fullname">
                 </div>
                 <div>
                   <label for="email">Email</label>
-                  <input id="email" name="email" rows="4" placeholder="Insert email">
+                  <input id="email" name="email" placeholder="Insert email">
                 </div>
                 <div>
-                  <input type="radio" id="General Inquiry" name="contact" value="General Inquiry" checked>
-                  <label for="General Inquiry">General Inquiry</label>
-                </div>
-              
-                <div>
-                  <input type="radio" id="Reservation Question" name="contact" value="Reservation Question">
-                  <label for="Reservation Question">Reservation Question</label>
+                  <input type="radio" id="inquiry" name="contact" value="inquiry" checked>
+                  <label for="inquiry">General Inquiry</label>
                 </div>
               
                 <div>
-                  <input type="radio" id="Website Suggestion" name="contact" value="Website Suggestion">
-                  <label for="Website Suggestion">Website Suggestion</label>
+                  <input type="radio" id="reservation" name="contact" value="reservation">
+                  <label for="reservation">Reservation Question</label>
+                </div>
+              
+                <div>
+                  <input type="radio" id="suggestion" name="contact" value="suggestion">
+                  <label for="suggestion">Website Suggestion</label>
                 </div>
                 <div class="message">
                   <label for="message">Message</label>
@@ -81,7 +82,7 @@
                 <button type="submit">Submit</button>
                 </div>
               </form>
-            </section> 
+            </div> 
           </div>
             
           </div>  
