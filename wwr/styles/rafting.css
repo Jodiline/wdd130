@@ -183,6 +183,9 @@ h1 {
 
 .contact {
     grid-area: 1 / 1 / 4 / 3;
+    padding-bottom: 0.5rem;
+    font-size: 1.3rem;
+    line-height: 35px;
 }
 
 .maps {
