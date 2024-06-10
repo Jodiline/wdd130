@@ -128,10 +128,6 @@ figure img.banner {
     width: 100%;
 }
 
-figure img.trip-figure {
-    margin-bottom: 8px;
-}
-
 figure {
     padding: 10px;;
     margin:10px;
@@ -246,6 +242,7 @@ input[type="checkbox"] {
     font-size: 1.5rem;
 
 }
+
 button {
     display: flex;
     align-items: center;
@@ -255,7 +252,7 @@ button {
     background-color: var(--accent2-color);
     color: #fff;
     border: none;
-    border-radius: 0.25rem;
+    border-radius: 1rem;
     padding: 1rem;
     font-size: 1rem;
 }
@@ -281,6 +278,7 @@ iframe {
 
 .trips {
     display: flex;
+    padding: 2rem;
 }
 
 .home-banner {
@@ -339,7 +337,7 @@ iframe {
 .div-wrapper {
     display: flex;
     justify-content: space-around;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .cols {
@@ -382,4 +380,65 @@ iframe {
     background-color: rgba(238, 238, 255, 0.726);
     padding: 1rem;
     border-radius: 1rem;
+}
+
+.trips figcaption {
+    font-size: larger;
+    font-weight: 700;
+}
+
+table {
+    border: 2px solid var(--accent2-color);
+    font-size: 1rem;
+    width: 800px;
+    margin-left: 260px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+  
+caption {
+    caption-side:top;
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--accent2-color)
+}
+  
+thead, tfoot {
+    background-color: rgb(228 240 245);
+}
+  
+thead {
+    color: var(--accent2-color);
+    font-size: 1.5rem;
+}
+th,td {
+    border: 1px solid rgb(160 160 160);
+    padding: 10px;
+}
+  
+td {
+    text-align: center;
+}
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+
+.now a {
+    padding: 1rem;
+    color:var(--primary-color);
+    text-decoration: none;
+}
+
+.now button {
+    display: flex;
+    align-items: center;
+    margin: 120px auto;
+    font-size: 2rem;
+    background-color: var(--accent2-color);
+    color:var(--primary-color);
+    border-radius: 1.5rem;
+}
+
+.now button:hover {
+    background-color: var(--accent1-color);
 }
