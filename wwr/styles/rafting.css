@@ -424,23 +424,20 @@ td {
     background-color: rgb(237 238 242);
 }
 
-.now a {
-    padding: 1rem;
-    color:var(--primary-color);
-    text-decoration: none;
+.now {
+    margin-bottom: 80px;
+    margin-left: 480px;
 }
 
-.now button {
-    display: flex;
-    align-items: center;
-    margin: 120px auto;
-    margin-top: 0px;
-    font-size: 2rem;
-    background-color: var(--accent2-color);
+.now a {
+    padding: 2rem;
     color:var(--primary-color);
+    font-size: 2.5rem;
+    text-decoration: none;
+    background-color: var(--accent2-color);
     border-radius: 1.5rem;
 }
 
-.now button:hover {
+.now a:hover {
     background-color: var(--accent1-color);
 }
